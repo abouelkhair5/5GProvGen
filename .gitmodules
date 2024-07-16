@@ -1,3 +1,6 @@
 [submodule "5g-core-attackset"]
 	path = 5g-core-attackset
 	url = git@github.com:kmajdi/5g-core-attackset.git
+[submodule "open5gs-k8s"]
+	path = open5gs-k8s
+	url = git@github.com:niloysh/open5gs-k8s.git
