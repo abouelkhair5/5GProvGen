@@ -1,0 +1,3 @@
+[submodule "5g-core-attackset"]
+	path = 5g-core-attackset
+	url = git@github.com:kmajdi/5g-core-attackset.git
