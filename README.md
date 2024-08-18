@@ -6,3 +6,9 @@ In this repo we present our framework 5GProvGen. Our repository consists of 4 co
 2. Collector
 3. Activity Generator 
 4. Annotator
+
+## Installing Camflow
+For installing the collection framework, we rely on CamFlow dev guide. That's cause camflow originally support ... while our testbed can only be installed on ubuntu. Therefore we relied of camflow vagrant guide. 
+
+## Installing Open5GS
+We rely on the testbed automator ... it's a one script that's thoroughly documented.
