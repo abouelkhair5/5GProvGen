@@ -1,6 +1,7 @@
 import time
 import collector
 import benign_activity_generator
+import malicious_activity.activity_generator
 
 class Orchestrator:
     def __init__(self, log_dir, duration):
@@ -10,6 +11,7 @@ class Orchestrator:
         self.start_time = 0
         self.collector = collector.Collector(self.log_dir)
         self.benign_activity = benign_activity_generator.BenignActivity()
+        self.malicious_activity = malicious_activity.activity_generator.ActivityGenerator()
         
     def run(self):
         self.start_time = time.time()
