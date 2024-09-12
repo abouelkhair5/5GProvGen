@@ -1,6 +1,8 @@
 # 5GProvGen
 This repository is the codebase associated with the paper titled "5GProvGen: 5G Provenance Dataset Generation Framework" 
 
+![Framework overview](./framework-overview.png)
+
 In this repo we present our framework 5GProvGen. Our repository consists of 4 components:
 1. Orchestrator 
 2. Collector
@@ -11,4 +13,4 @@ In this repo we present our framework 5GProvGen. Our repository consists of 4 co
 For installing the collection framework, we rely on CamFlow dev guide. That's cause camflow originally support ... while our testbed can only be installed on ubuntu. Therefore we relied of camflow vagrant guide. 
 
 ## Installing Open5GS
-We rely on the testbed automator ... it's a one script that's thoroughly documented.
+We rely on the testbed automator, it's a one script that's thoroughly documented in the open5gs-k8s [repo](https://github.com/niloysh/open5gs-k8s/).
