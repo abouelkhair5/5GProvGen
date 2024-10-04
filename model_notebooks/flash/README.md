@@ -1,3 +1,5 @@
+This code is adapted from the authors repo: https://github.com/DART-Laboratory/Flash-IDS.git
+
 # FLASH 
 
 Welcome to the FLASH repository. Here, we offer the implementation details of the method introduced in our research paper titled "_FLASH: A Comprehensive Approach to Intrusion Detection via Provenance Graph Representation Learning_".
